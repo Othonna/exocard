@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Maquette bootstrap</title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+       <link rel="stylesheet" href="style.css">
+   </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 pb-4">
+            <div class="container">
+                  <div>
+                    <img width="60" height="60" class="navbar-logo navbar-brand" src="assets/star-trek-logo.png" alt="star-trek-logo"><p class="navbar-brand">Quadrant Social Community</p>
+                  </div>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                  <div  class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Enter</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Communicator</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Alliance</a>
+                          </li>
+                      </ul>
+                  </div>  
+            </div>
+        </nav>
+        <div class="bg-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bg-image d-flex flex-row">
+                                <div class="divpic">
+                                    <img class="spaceship img-responsive" src="assets/spaceshipG.jpg" alt="spaceship">
+                                </div>
+                                    <div class="line">
+                                            <div class="visibility d-flex flex-row justify-content-between">
+                                               <img class="data_pic" src="assets/data_pic.png" alt="data_star_trek">
+                                               <p class="mrdata ">Mr Data</p>
+                                               <button class="Bfollow">Follow</button>
+                                            </div>
+                                       <hr>
+                                             <div class="comment">
+                                                 <p><strong>Mr No nothing</strong> Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                                                 <p id="newtext"><b></b></p>
+                                             </div>
+                                        <hr>
+                                             <div class="like">
+                                                <img src="assets/hand-white.svg" alt="hand-spok" id="hand">
+                                                <img src="assets/comment-regular.svg" alt="comment" id="comment">
+                                             </div>
+                                             <div class="count"> 
+                                                <span id="count" class="meta"><strong>0</strong>  Likes</span>
+                                             </div>
+                                            <div class="addcomment">
+                                                <textarea id="inputcomment" cols="30" rows="10"></textarea>
+                                                <button id="btncomment">Comment</button>
+                                            </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-copyright text-center py-4">
+            <div class="container">
+                <p class="m-0">
+                    <small>Copyright &copy; <i class="far fa-copyright"></i> Next Generation</small>
+                </p>
+            </div>
+        </div>
+        
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
